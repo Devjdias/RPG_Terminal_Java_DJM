@@ -7,19 +7,21 @@ Crie seu personagem, enfrente inimigos desafiadores, colete itens, suba de níve
 🎮 Como Jogar
 
 Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir os passos abaixo.
-Pré-requisitos
+Pré-requisitos:
 Java JDK 8 ou superior instalado e configurado no seu sistema.
+
 Instalação e Execução
-Clone o repositório:
+
+1. Clone o repositório:
 git clone https://github.com/Devjdias/RPG_Terminal_Java_DJM.git
 
-Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
 cd JavaRPG-Terminal
 
-Compile os arquivos Java:
+3. Compile os arquivos Java:
 javac -d bin src/jogo/Jogo.java
 
-Execute o jogo:
+4. Execute o jogo:
 java -cp bin jogo.Jogo
 
 ✨ Funcionalidades
