@@ -94,15 +94,25 @@ Prepare-se para enfrentar criaturas perigosas em sua jornada.
 A organização dos arquivos fonte (src) está estruturada da seguinte forma:
 
 src/
+
 ├── aplicacao/                                   
+
 │   └── Jogo.java                                #Contém a classe principal jogo(main)
+
 ├── modelo/                          
+
 │  ├── inimigos                                  #Contém as classes dos inimigos
+
 │  ├── itens                                     #Contém os itens e a lógica do inventário
+
 │  ├── personagens                               #Contém as classes jogáveis
+
 ├── servico/
+
 │    ├── Loja.java                               #Sistema de compra e venda de itens
+
 │    └── SalvadorDeJogo.java                     #Lógica de salvamento e carregamento
+
 
 
 
