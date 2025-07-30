@@ -123,7 +123,7 @@ src/
 
 Escolha: 1
 
-
+-
 Digite o nome do seu herói: Aragorn
 
 Escolha sua classe:
@@ -132,10 +132,10 @@ Escolha sua classe:
 
 Opção: 1
 
-
+-
 Você encontrou um Dragão feroz!
 
-
+-
 === SEU TURNO ===
 
 1 - Atacar
@@ -148,7 +148,7 @@ Você encontrou um Dragão feroz!
 
 Escolha: 3
 
-
+-
 Aragorn usa Golpe Poderoso! Causa 2500 de dano.
 
 O Dragão foi derrotado! Você ganhou 100 XP.
