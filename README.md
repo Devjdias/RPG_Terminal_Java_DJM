@@ -20,7 +20,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Devjdias/RPG_Terminal_Java_DJM.git](https://github.com/Devjdias/RPG_Terminal_Java_DJM.git)
+    git clone https://github.com/Devjdias/RPG_Terminal_DJM.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
