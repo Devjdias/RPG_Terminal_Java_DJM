@@ -1,5 +1,7 @@
 # RPG de Terminal em Java
 
+Projeto Final — Programação Orientada a Objetos com Java
+
 Um jogo de RPG de aventura por turnos, totalmente baseado em texto e jogável diretamente no seu terminal! 
 
 Crie seu personagem, enfrente inimigos desafiadores, colete itens, suba de nível e torne-se uma lenda.
@@ -93,21 +95,21 @@ A organização dos arquivos fonte (src) está estruturada da seguinte forma:
 
 src/
 
-├── inimigos/                                    ##Contém as classes dos inimigos
+├── inimigos/                                    #Contém as classes dos inimigos
 
-├── itens/                                       ##Contém os itens e a lógica do inventário
+├── itens/                                       #Contém os itens e a lógica do inventário
 
 ├── jogo/
 
-│   └── Jogo.java                                ##Lógica principal e loop do jogo
+│   └── Jogo.java                                #Lógica principal e loop do jogo
 
-├── personagens/                                 ##Contém as classes jogáveis
+├── personagens/                                 #Contém as classes jogáveis
 
 ├── servico/
 
-│    ├── Loja.java                               ##Sistema de compra e venda de itens
+│    ├── Loja.java                               #Sistema de compra e venda de itens
 
-│    └── SalvadorDeJogo.java                     ##Lógica de salvamento e carregamento
+│    └── SalvadorDeJogo.java                     #Lógica de salvamento e carregamento
 
 
 
