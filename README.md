@@ -1,6 +1,7 @@
 # RPG de Terminal em Java
 
 Um jogo de RPG de aventura por turnos, totalmente baseado em texto e jogável diretamente no seu terminal! 
+
 Crie seu personagem, enfrente inimigos desafiadores, colete itens, suba de nível e torne-se uma lenda.
 
 ---
@@ -40,9 +41,13 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 ## ✨ Funcionalidades
 
 -   ✅ **7 Classes de Personagens**: Escolha entre Guerreiro, Mago, Arqueiro, Ladrão, Curandeiro, Necromante e Paladino, cada um com habilidades únicas.
+-   
 -   ✅ **Sistema de Batalha por Turnos**: Use estratégia para atacar, defender, usar habilidades especiais ou consumir itens.
+-   
 -   ✅ **Progressão de Personagem**: Derrote inimigos para ganhar pontos de experiência (XP), subir de nível e aprimorar seus atributos.
+-   
 -   ✅ **Loja de Itens**: Utilize o XP acumulado para comprar poções de cura, armaduras e outros equipamentos.
+-   
 -   ✅ **Salvamento Automático**: Seu progresso é salvo automaticamente ao final de cada sessão, permitindo que você continue sua jornada mais tarde.
 
 ---
@@ -50,6 +55,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 ## 👾 Visão Geral do Jogo
 
 ### 💫 Classes de Personagens
+Cada classe possui atributos e habilidades distintas.
 
 | Classe     | HP  | Dano    | Habilidade Especial                  |
 | :--------- | :-- | :------ | :----------------------------------- |
@@ -62,6 +68,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 | Paladino   | 110 | 9-12    | Luz sagrada (dano e cura)            |
 
 ### 🛡️ Itens Disponíveis
+Equipe-se com itens para ganhar vantagens em combate.
 
 | Item              | Efeito      | Como Obter                         |
 | :---------------- | :---------- | :--------------------------------- |
@@ -70,6 +77,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 | Poção Pequena     | +20 HP      | Loja (10 XP) ou drop de inimigos   |
 
 ### 🎯 Inimigos
+Prepare-se para enfrentar criaturas perigosas em sua jornada.
 
 | Inimigo | HP  | Dano    | Recompensa (XP) | Drop Comum                           |
 | :------ | :-- | :------ | :-------------- | :----------------------------------- |
@@ -81,7 +89,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 
 ## 🛠️ Estrutura do Projeto
 
-A organização dos arquivos fonte (`src`) está estruturada da seguinte forma:
+A organização dos arquivos fonte (src) está estruturada da seguinte forma:
 
 src/
 
@@ -95,7 +103,7 @@ src/
 
 ├── personagens/                     # Contém as classes jogáveis
 
-└── servico/
+├── servico/
 
 │    ├── Loja.java                   # Sistema de compra e venda de itens
 
