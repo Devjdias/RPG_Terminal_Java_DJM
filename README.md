@@ -9,11 +9,11 @@ Crie seu personagem, enfrente inimigos desafiadores, colete itens, suba de níve
 
 Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir os passos abaixo.
 
- Pré-requisitos
+### Pré-requisitos
 
 - **Java JDK 8** ou superior instalado e configurado no seu sistema.
 
- Instalação e Execução
+### Instalação e Execução
 
 1.  **Clone o repositório:**
     ```bash
@@ -47,9 +47,9 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 
 ---
 
- ## 👾 Visão Geral do Jogo
+## 👾 Visão Geral do Jogo
 
-## 💫 Classes de Personagens
+### 💫 Classes de Personagens
 
 | Classe     | HP  | Dano    | Habilidade Especial                  |
 | :--------- | :-- | :------ | :----------------------------------- |
@@ -61,7 +61,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 | Necromante | 85  | 8-13    | Drenar Vida (cura 10 HP ao atacar)   |
 | Paladino   | 110 | 9-12    | Luz sagrada (dano e cura)            |
 
-## 🛡️ Itens Disponíveis
+### 🛡️ Itens Disponíveis
 
 | Item              | Efeito      | Como Obter                         |
 | :---------------- | :---------- | :--------------------------------- |
@@ -69,30 +69,13 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 | Poção Grande      | +40 HP      | Loja (20 XP) ou drop de inimigos   |
 | Poção Pequena     | +20 HP      | Loja (10 XP) ou drop de inimigos   |
 
-## 🎯 Inimigos
+### 🎯 Inimigos
 
 | Inimigo | HP  | Dano    | Recompensa (XP) | Drop Comum                           |
 | :------ | :-- | :------ | :-------------- | :----------------------------------- |
 | Dragão  | 150 | 20-34   | 100 XP          | Drop do Dragão (chance de 20%)       |
 | Goblin  | 40  | 5-9     | 45 XP           | Poção Pequena (chance de 70%)        |
 | Orc     | 80  | 10-15   | 60 XP           | Poção Pequena ou Grande (chance de 50%) |
-
----
-
-## 🛠️ Estrutura do Projeto
-
-A organização dos arquivos fonte (`src`) está estruturada da seguinte forma:
-
-src/
-├── inimigos/             # Contém as classes dos inimigos
-├── itens/                # Contém os itens e a lógica do inventário
-├── jogo/
-│   └── Jogo.java         # Lógica principal e loop do jogo
-├── personagens/          # Contém as classes jogáveis
-└── servico/
-├── Loja.java             # Sistema de compra e venda de itens
-└── SalvadorDeJogo.java   # Lógica de salvamento e carregamento
-
 
 ---
 
@@ -124,7 +107,24 @@ O Dragão foi derrotado! Você ganhou 100 XP.
 
 ---
 
-##💡 Como Contribuir
+## 🛠️ Estrutura do Projeto
+
+A organização dos arquivos fonte (`src`) está estruturada da seguinte forma:
+
+src/
+├── inimigos/           # Contém as classes dos inimigos
+├── itens/              # Contém os itens e a lógica do inventário
+├── jogo/
+│   └── Jogo.java       # Lógica principal e loop do jogo
+├── personagens/        # Contém as classes jogáveis
+└── servico/
+├── Loja.java       # Sistema de compra e venda de itens
+└── SalvadorDeJogo.java # Lógica de salvamento e carregamento
+
+
+---
+
+## 💡 Como Contribuir
 
 Contribuições são sempre bem-vindas! Se você tem ideias para novos itens, inimigos, classes ou funcionalidades, sinta-se à vontade para colaborar.
 
@@ -136,7 +136,7 @@ Contribuições são sempre bem-vindas! Se você tem ideias para novos itens, in
 
 ---
 
-##📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
