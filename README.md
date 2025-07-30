@@ -93,21 +93,21 @@ A organização dos arquivos fonte (src) está estruturada da seguinte forma:
 
 src/
 
-├── inimigos/                                    #Contém as classes dos inimigos
+├── inimigos/                                    ##Contém as classes dos inimigos
 
-├── itens/                                       #Contém os itens e a lógica do inventário
+├── itens/                                       ##Contém os itens e a lógica do inventário
 
 ├── jogo/
 
-│   └── Jogo.java                                #Lógica principal e loop do jogo
+│   └── Jogo.java                                ##Lógica principal e loop do jogo
 
-├── personagens/                                 #Contém as classes jogáveis
+├── personagens/                                 ##Contém as classes jogáveis
 
 ├── servico/
 
-│    ├── Loja.java                               #Sistema de compra e venda de itens
+│    ├── Loja.java                               ##Sistema de compra e venda de itens
 
-│    └── SalvadorDeJogo.java                     #Lógica de salvamento e carregamento
+│    └── SalvadorDeJogo.java                     ##Lógica de salvamento e carregamento
 
 
 
