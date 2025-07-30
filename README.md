@@ -40,7 +40,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
 
 ## ✨ Funcionalidades
 
--   ✅ **7 Classes de Personagens**: Escolha entre Guerreiro, Mago, Arqueiro, Ladrão, Curandeiro, Necromante e Paladino, com habilidades únicas.
+-   ✅ **7 Classes de Personagens**: Escolha Guerreiro, Mago, Arqueiro, Ladrão, Curandeiro, Necromante ou Paladino, com habilidades únicas.
   
 -   ✅ **Sistema de Batalha por Turnos**: Use estratégia para atacar, defender, usar habilidades especiais ou consumir itens.
   
@@ -48,7 +48,7 @@ Para mergulhar nesta aventura, você só precisa ter o Java instalado e seguir o
   
 -   ✅ **Loja de Itens**: Utilize o XP acumulado para comprar poções de cura, armaduras e outros equipamentos.
   
--   ✅ **Salvamento Automático**: Seu progresso é salvo automaticamente ao final de cada sessão, permitindo continuar sua jornada mais tarde.
+-   ✅ **Salvamento Automático**: O progresso é salvo automaticamente ao final de cada sessão, permitindo continuar sua jornada mais tarde.
 
 ---
 
@@ -93,21 +93,21 @@ A organização dos arquivos fonte (src) está estruturada da seguinte forma:
 
 src/
 
-├── inimigos/                        - Contém as classes dos inimigos
+├── inimigos/                                    #Contém as classes dos inimigos
 
-├── itens/                           - Contém os itens e a lógica do inventário
+├── itens/                                       #Contém os itens e a lógica do inventário
 
 ├── jogo/
 
-│   └── Jogo.java                    - Lógica principal e loop do jogo
+│   └── Jogo.java                                #Lógica principal e loop do jogo
 
-├── personagens/                     - Contém as classes jogáveis
+├── personagens/                                 #Contém as classes jogáveis
 
 ├── servico/
 
-│    ├── Loja.java                   - Sistema de compra e venda de itens
+│    ├── Loja.java                               #Sistema de compra e venda de itens
 
-│    └── SalvadorDeJogo.java         - Lógica de salvamento e carregamento
+│    └── SalvadorDeJogo.java                     #Lógica de salvamento e carregamento
 
 
 
@@ -123,7 +123,7 @@ src/
 
 Escolha: 1
 
---
+---
 Digite o nome do seu herói: Aragorn
 
 Escolha sua classe:
@@ -132,10 +132,10 @@ Escolha sua classe:
 
 Opção: 1
 
---
+---
 Você encontrou um Dragão feroz!
 
---
+---
 === SEU TURNO ===
 
 1 - Atacar
@@ -148,7 +148,7 @@ Você encontrou um Dragão feroz!
 
 Escolha: 3
 
---
+----
 Aragorn usa Golpe Poderoso! Causa 2500 de dano.
 
 O Dragão foi derrotado! Você ganhou 100 XP.
